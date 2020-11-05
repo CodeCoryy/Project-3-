@@ -16,10 +16,10 @@ class Main {
     }
 
     int i = 0;
-    /*while(i < names.length && i < seats.length)
+    while(i < names.length && i < seats.length)
     {
       System.out.println("\n" + names[i] + " is in seat #" + seats[i]);
       i++;
     }
   }
-}*/
+}
