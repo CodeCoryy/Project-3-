@@ -1,4 +1,4 @@
-//import java.util.Scanner;
+import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
@@ -6,13 +6,12 @@ class Main {
     int seats[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
 
     String[] names = new String[15];
-
+    
+    Scanner sc = new Scanner(System.in);
   }
 }
-    
-    /*Scanner sc = new Scanner(System.in);
 
-    for (int i = 0; i < names.length; i++)
+    /*for (int i = 0; i < names.length; i++)
     {
       System.out.print("\nIdentify yourself:\n\n");
       names[i] = sc.nextLine();
