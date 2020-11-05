@@ -14,10 +14,9 @@ class Main {
       System.out.print("\nIdentify yourself:\n\n");
       names[i] = sc.nextLine();
     }
-  }
-}
-    /*int i = 0;
-    while(i < names.length && i < seats.length)
+
+    int i = 0;
+    /*while(i < names.length && i < seats.length)
     {
       System.out.println("\n" + names[i] + " is in seat #" + seats[i]);
       i++;
