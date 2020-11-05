@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
@@ -7,7 +7,10 @@ class Main {
 
     String[] names = new String[15];
 
-    Scanner sc = new Scanner(System.in);
+  }
+}
+    
+    /*Scanner sc = new Scanner(System.in);
 
     for (int i = 0; i < names.length; i++)
     {
@@ -17,8 +20,8 @@ class Main {
     int i = 0;
     while(i < names.length && i < seats.length)
     {
-      System.out.println(names[i] + " got " + seats[i] + " problems correct!");
+      System.out.println("\n" + names[i] + " is in seat #" + seats[i]);
       i++;
     }
   }
-}
+}*/
