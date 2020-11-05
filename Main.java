@@ -8,15 +8,15 @@ class Main {
     String[] names = new String[15];
     
     Scanner sc = new Scanner(System.in);
-  }
-}
 
-    /*for (int i = 0; i < names.length; i++)
+    for (int i = 0; i < names.length; i++)
     {
       System.out.print("\nIdentify yourself:\n\n");
       names[i] = sc.nextLine();
     }
-    int i = 0;
+  }
+}
+    /*int i = 0;
     while(i < names.length && i < seats.length)
     {
       System.out.println("\n" + names[i] + " is in seat #" + seats[i]);
